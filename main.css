@@ -1,0 +1,106 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+.container {
+  width: 100%;
+  height: 600px;
+  padding-top:5px;
+  text-align: center;
+  background: #e8d98b;
+  color: blue;
+}
+  .tikets {
+    position: relative;
+    width: 95%;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 10px;
+  }
+    .tiket_head {
+      width: 96%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+      .head_add {margin: 10px; cursor: pointer;}
+    .tiket_content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 99%;
+      margin: 1px auto;
+      padding: 3px 0;
+      text-align: center;
+      border: blue solid 1px;
+      border-radius: 5px;
+    }
+      .label {
+        width: 10%;
+      }
+        .input {
+         position: absolute;
+          clip: rect(1px, 1px, 1px, 1px);
+          width: 1px;
+          height: 1px;
+        }
+        .label img {  
+          width: 25px;
+          display: flex;
+          margin: auto;
+        }
+      .title {width: 50%; text-align: left;}
+      .title:hover {cursor: pointer;}
+      .time {width: 24%;}
+      .time:hover {cursor: pointer;}
+      .editing {width: 8%;}
+        .editing img {
+          width: 25px;
+          display: flex;
+          margin: auto;
+        }
+      .delete {width: 8%;}
+        .delete img {
+          width: 25px;
+          display: flex;
+          margin: auto;}
+      .full_text {
+        width:100%;
+        padding: 0 8% 0 10%;
+        text-align: left;
+        display: none;
+      }
+      .warn {display: block;}
+  
+    .popov {
+      position: absolute;
+      width: 280px;
+      top: 40px;
+      left: calc(50% - 125px);
+      border: 1px solid #3293a8;
+      background: #FCFECA;
+      border-radius: 10px;
+    }
+    .warning {background: #D18586;}
+      .inp {
+        margin: 3px auto 10px;
+        appearance: none;
+        width: 95%;
+        height: 25px;
+        padding: 0 10px;
+        border: 1px solid #3293a8; 
+      }
+      .full {height: 50px; padding-top: 3px;}
+      .block_button {
+        margin-top: 5px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        text-align: right;
+      }
+        .but {
+          appearance: none;
+          border: 1px solid #3293a8; 
+          border-radius: 7px;
+          font-size: 16px;
+          color: blue; 
+          margin: 0 5px;
+        }
+
