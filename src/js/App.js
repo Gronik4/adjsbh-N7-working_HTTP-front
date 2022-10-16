@@ -12,7 +12,7 @@ export default class App {
     this.init();
   }
 
-  static addUrl = 'http://localhost:8080';
+  static addUrl = 'https://coursar-http.herokuapp.com/' || 'http://localhost:8080';
 
   static tikets = document.querySelector('.tikets');
 
